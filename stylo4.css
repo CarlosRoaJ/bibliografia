@@ -1,0 +1,148 @@
+* {
+ margin: 0px;
+padding: 0px;
+
+}
+
+body {
+ text-align: center;
+ background: #DC143C;
+ 
+ 
+}
+
+#agrupar {
+width: 960px;
+margin: 10px auto;
+text-align: center;
+}
+
+#principal {
+ display: block;
+ width: 500px;
+ margin: 50px auto;
+ padding: 15px;
+ text-align: center;
+ border: 1px solid #999999;
+ background: #DDDDDD;
+ -moz-border-radius: 20px;
+ -webkit-border-radius: 20px;
+ border-radius: 20px;
+ -moz-box-shadow: rgb(150,150,150) 5px 5px 10px;
+ -webkit-box-shadow: rgb(150,150,150) 5px 5px 10px;
+ box-shadow: rgb(150,150,150) 5px 5px 10px;
+}
+
+
+h1{
+ font: bold 30px verdana, sans-serif;
+ 
+ 
+}
+h2 {
+ font: bold 15px verdana, sans-serif;
+ 
+}
+
+
+p { font-size:19px }
+
+
+article {
+ background: #f0ffff;
+ border: 1px solid #999999;
+ padding: 20px;
+ margin-bottom: 15px;
+}
+article footer {
+ text-align: center;
+}
+time {
+ color: #999999;
+}
+figcaption {
+ font: italic 14px verdana, sans-serif;
+}
+
+section{
+  display: flex;
+  width: 600px;
+  height: 430px;
+  float: center;
+}
+section img{
+  width: 0px;
+  flex-grow: 1;
+  object-fit: cover;
+  opacity: .8;
+  transition: .5s ease;
+   float: center;
+}
+section img:hover{
+  cursor: crosshair;
+  width: 300px;
+  opacity: 1;
+  filter: contrast(120%);
+   float: center;
+}
+
+
+div {
+width: 100px;
+background:  #0000ff;
+margin: 20px;
+padding: 10px;
+border: 1px solid #000000;
+-moz-box-sizing: border-box;
+-webkit-box-sizing: border-box;
+box-sizing: border-box;
+}
+
+#pie {
+clear: both;
+text-align: center;
+padding: 20px;
+border-top: 2px solid #999999;
+background:  red ;
+}
+
+
+
+li{
+  
+	padding: 10px;
+  list-style: none;
+	}
+
+#menu {
+background:  #5f9ea0;
+display: block;
+ width: 500px;
+ margin: 50px auto;
+ padding: 15px;
+ text-align: center;
+ border: 1px solid #999999;
+}
+#menu li {
+display: inline-block;
+list-style: none;
+padding: 5px;
+font: bold 14px verdana, sans-serif;
+border: 1px solid #999999;
+background: #00ffff;
+}
+#menu ul li{
+  float: center;
+  font-family: arial, sans-serif;
+  font-size: 16px;
+}
+#menu ul li a{
+  display: block;
+  padding: 15;
+  color:#DC143C;
+  text-decoration: none;
+}
+
+#menu ul li:hover{
+  background: #eca023;
+}
